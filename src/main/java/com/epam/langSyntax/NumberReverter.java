@@ -8,13 +8,6 @@ public class NumberReverter {
             rev_num = rev_num * 10 + number % 10;
             number = number / 10;
         }
-        return rev_num;
+         System.out.println(rev_num);
     }
-
-    public void main(String[] args)
-    {
-        int number = 4562;
-        System.out.println(revert(number));
-    }
-
 }
